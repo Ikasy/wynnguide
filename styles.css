@@ -2,9 +2,146 @@
     padding: 0;
     margin: 0;
 }
+@font-face {
+    font-family: inkfree;
+    src: url(fonts/Inkfree.ttf);
+}
+@font-face {
+    font-family: immortal;
+    src: url(fonts/IMMORTAL.ttf);
+}
 
+body{
+    background-color: #cfc3a6;
+    color: #412624;
+    text-align: center;
+}
 
 /******************************** Header ********************************/
+header{
+    font-family: inkfree;
+    font-weight: 500;
+    font-size: x-large;
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    margin: auto;
+    padding: auto;
+
+
+    background-color: #baaa80;
+    border-bottom: 3px solid #412624;
+    z-index: 100000;
+    }
+
 /******************************** nav ********************************/
-/******************************** Video ********************************/
+nav{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a{
+    color: #412624;
+    text-decoration: none;
+
+}
+
+/******************************** main ********************************/
+main{
+    margin: auto;
+    width: 60%;
+}
 /******************************** Artikel kort ********************************/
+h1{
+    margin-top: 50px;
+    font-family: immortal;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.kort{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.kort h3{
+    font-family: immortal;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: normal;
+    
+}
+.kort section{
+    background-color:#baaa80;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    font-family: 'Author', sans-serif;
+    font-size: 15pt;
+
+}
+.placeholder{
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+
+
+/******************************** Landing ********************************/
+#myVideo{
+    width: 100%;
+    height: 953px;
+    
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    color: #85c445;
+    width: 100%;
+    font-weight: 900;
+    font-size: 24pt;
+}
+.content h2{
+    font-family: 'Author', sans-serif;
+    font-size: 24pt;
+    font-weight: 400;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 953px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.71) 0%, rgba(0,0,0,0) 66%);
+}
+
+button{
+    border: none;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 21px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-family: 'Author', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    
+    cursor: pointer;
+    background-color: #85c445;
+
+    margin-top: 20px;
+}
