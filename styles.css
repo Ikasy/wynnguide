@@ -29,6 +29,8 @@ header{
     display: flex;
     align-items: center;
     position: fixed;
+    top: 0;
+    left: 0;
 
     margin: auto;
     padding: auto;
@@ -57,6 +59,18 @@ nav a{
 main{
     margin: auto;
     width: 60%;
+    margin-top: 120px;
+}
+
+.description{
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        font-family: 'Author', sans-serif;
+        font-size: 18pt; 
+        margin-top: 20px;
+        margin-bottom: 60px;
+
 }
 /******************************** Artikel kort ********************************/
 h1{
@@ -75,9 +89,10 @@ h1{
 }
 .kort h3{
     font-family: immortal;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 100;
-    font-size: normal;
+    font-size: 16pt;
+    
     
 }
 .kort section{
@@ -86,7 +101,10 @@ h1{
     height: 400px;
     text-align: center;
     font-family: 'Author', sans-serif;
-    font-size: 15pt;
+    font-size: 14pt; 
+    padding: 5px;
+/*spørg om hjælp til padding og image så der kommer padding uden billedet bevæger sig ********************************/
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.38);
 
 }
 .placeholder{
@@ -94,6 +112,8 @@ h1{
     height: 200px;
     background-color: beige;
     margin-bottom: 20px;
+    box-sizing: initial;
+
 }
 
 
@@ -144,4 +164,15 @@ button{
     background-color: #85c445;
 
     margin-top: 20px;
+}
+
+
+/******************************** footer ********************************/
+footer{
+height: 40px;
+background-color:#412624;
+color: #cfc3a6;
+align-items: center;
+justify-content: center;
+display: flex;
 }
