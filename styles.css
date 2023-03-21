@@ -184,6 +184,8 @@ button{
     background-color: #85c445;
 
     margin-top: 20px;
+
+    animation: jump-shaking 2s linear 0s 2;
 }
 /******************************** article ********************************/
 article{
@@ -273,4 +275,73 @@ color: #cfc3a6;
 align-items: center;
 justify-content: center;
 display: flex;
+}
+
+
+/******************************** dropdown menu ********************************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    position: absolute;
+    top: -3px;
+    left:-31px;
+    
+
+    background-color: #baaa80;
+    border: #412624 solid 3px;
+    width: 160px;
+    box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.38);
+
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+.one {
+    position: absolute;
+    top: -3px;
+    left:-17px;
+}
+.two {
+    position: absolute;
+    top: -3px;
+    left:-26px;
+}
+.three {
+    position: absolute;
+    top: -3px;
+    left: -10px;
+}
+
+
+
+
+
+.dropdown-content a {
+    display: block;
+    text-align: center;
+    color: #412624;
+    text-decoration: none;
+    border-bottom: #897665 solid 2px;
+}
+.dropdown-content a:hover {
+    background-color: #ac9e7f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+
+/******************************** Animations ********************************/
+
+@keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    15% { transform: translateY(-4px) }
+    30% { transform: translateY(-4px) rotate(8deg) }
+    45% { transform: translateY(-4px) rotate(-8deg) }
+    60% { transform: translateY(-4px) rotate(8deg) }
+    75% { transform: translateY(-4px) rotate(-8deg) }
+    100% { transform: translateY(0) rotate(0) }
 }
