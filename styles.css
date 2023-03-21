@@ -78,7 +78,7 @@ a{
 
 }
 
-/******************************** Artikel kort ********************************/
+/******************************** kort ********************************/
 h1{
     margin-top: 100px;
     font-family: immortal;
@@ -114,7 +114,15 @@ h1{
 /*spørg om hjælp til padding og image så der kommer padding uden billedet bevæger sig ********************************/
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.38);
 
+
+    
+    transition: all 1s;
+
 }
+.kort section:hover{
+    transform: scale(1.05);
+}
+
 .placeholder{
     width: 300px;
     height: 200px;
