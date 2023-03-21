@@ -92,13 +92,14 @@ h1{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    
 }
 .kort h3{
     font-family: immortal;
     letter-spacing: 1px;
     font-weight: 100;
     font-size: 16pt;
-    padding-top: 25px;
+    padding-top: 15px;
     
     
 }
@@ -118,7 +119,7 @@ h1{
     width: 300px;
     height: 200px;
     background-color: beige;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-sizing: initial;
 
 }
@@ -200,6 +201,8 @@ article{
     border-top-right-radius: 145px;
     padding-bottom: 50px;
     font-family: 'Author', sans-serif;
+
+    box-shadow: 0px 0px 27px 0px rgba(0,0,0,0.38);
     
 }
 
@@ -221,6 +224,13 @@ article h2 {
     font-size: 16pt;
 }
 
+article h3 {
+    text-align: left;
+    width: 57%;
+    margin: auto;
+    margin-top:25px;
+}
+
 article p {
     width: 57%;
     margin: auto;
@@ -229,7 +239,7 @@ article p {
 }
 article img {
     margin-top: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 article a{
     text-decoration: underline;
@@ -237,13 +247,20 @@ article a{
 
 #articlefooter1{
     position: absolute;
-    top: 3950px;
+    top: 3790px;
     left: 0%;
     width: 100%;
 }
 #articlefooter2{
     position: absolute;
-    top: 3175px;
+    top: 3050px;
+    left: 0%;
+    width: 100%;
+}
+
+#articlefooter3{
+    position: absolute;
+    top: 4375px;
     left: 0%;
     width: 100%;
 }
