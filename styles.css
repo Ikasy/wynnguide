@@ -231,7 +231,8 @@ article h1 {
 }
 
 article h2 {
-    width: 57%;
+    min-width: 57%;
+    max-width: 71%;
     margin: auto;
     text-align: left;
     font-family: immortal;
@@ -243,13 +244,15 @@ article h2 {
 
 article h3 {
     text-align: left;
-    width: 57%;
+    min-width: 57%;
+    max-width: 71%;
     margin: auto;
     margin-top:25px;
 }
 
 article p {
-    width: 57%;
+    min-width: 57%;
+    max-width: 71%;
     margin: auto;
     text-align: left;
     font-size: 14pt;
