@@ -59,7 +59,7 @@ nav a{
 main{
     margin: auto;
     min-width: 60%;
-    max-width: 70%;
+    max-width: 70%; 
     margin-top: 120px;
 }
 
@@ -231,6 +231,7 @@ article h1 {
 
 article h2 {
     min-width: 57%;
+    width:57%;
     max-width: 71%;
     margin: auto;
     text-align: left;
@@ -244,6 +245,7 @@ article h2 {
 article h3 {
     text-align: left;
     min-width: 57%;
+    width:57%;
     max-width: 71%;
     margin: auto;
     margin-top:25px;
@@ -251,6 +253,7 @@ article h3 {
 
 article p {
     min-width: 57%;
+    width:57%;
     max-width: 71%;
     margin: auto;
     text-align: left;
