@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-@font-face {
+@font-face{
     font-family: immortal;
     src: url(fonts/IMMORTAL.ttf);
 }
@@ -36,30 +36,24 @@ header{
 /******************************** nav ********************************/
 nav{
     display: flex;
-    margin: auto;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-}
-
-nav a{
     color: #412624;
     text-decoration: none;
-
 }
 
 /******************************** dropdown menu ********************************/
-.dropdown {
+.dropdown{
     position: relative;
     display: inline-block;
 }
-.dropdown-content {
+.dropdown-content{
     display: none;
     position: absolute;
     top: -3px;
     left:-29px;
     
-
     background-color: #baaa80;
     border: #412624 solid 3px;
     width: 160px;
@@ -68,34 +62,34 @@ nav a{
     opacity: 0;
     transition: opacity 500ms ease;
 }
-.one {
+.one{
     position: absolute;
     top: -3px;
     left: -11px;
 }
-.two {
+.two{
     position: absolute;
     top: -3px;
     left:-25px;
 }
-.three {
+.three{
     position: absolute;
     top: -3px;
     left: -5px;
 }
 
-.dropdown-content a {
+.dropdown-content a{
     display: block;
     text-align: center;
     color: #412624;
     text-decoration: none;
     border-bottom: #897665 solid 2px;
 }
-.dropdown-content a:hover {
+.dropdown-content a:hover{
     background-color: #ac9e7f;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
     opacity: 1;
     z-index: 9990;
@@ -116,12 +110,11 @@ main{
         font-size: 18pt; 
         margin-top: 20px;
         margin-bottom: 60px;
-
 }
+
 a{
     color: #412624;
     text-decoration: none;
-
 }
 
 /******************************** kort ********************************/
@@ -146,14 +139,13 @@ h1{
     font-weight: 100;
     font-size: 16pt;
     padding-top: 15px;
-    
-    
 }
 
 .kort p{
     padding-left:10px;
     padding-right: 10px;
 }
+
 .kort section{
     background-color:#baaa80;
     width: 300px;
@@ -162,11 +154,8 @@ h1{
     font-family: 'Author', sans-serif;
     font-size: 14pt; 
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.38);
-
-
     
     transition: all 1s;
-
 }
 .kort section:hover{
     transform: scale(1.05);
@@ -178,7 +167,6 @@ h1{
     background-color: beige;
     margin-bottom: 10px;
     box-sizing: initial;
-
 }
 
 
@@ -199,6 +187,7 @@ h1{
     padding: 0;
     margin: 0;
 }
+
 .content{
     position: absolute;
     top: 60%;
@@ -207,11 +196,13 @@ h1{
     font-weight: 900;
     font-size: 24pt;
 }
+
 .content h2{
     font-family: 'Author', sans-serif;
     font-size: 24pt;
     font-weight: 400;
 }
+
 .gradient{
     position: absolute;
     top: 0;
@@ -220,9 +211,9 @@ h1{
     height:1050px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.71) 0%, rgba(0,0,0,0) 66%);
 }
+
 .smallgd{
     height: 1027px;
-
 }
 
 button{
@@ -253,8 +244,6 @@ article{
     left: 20%;
 
     margin: auto;
-    
-
 
     background-color: #baaa80;
     border-top-left-radius: 145px;
@@ -266,14 +255,14 @@ article{
     
 }
 
-article h1 {
+article h1{
     width: 70%;
     margin: auto;
     padding-top: 100px;
     font-size: 24pt;
 }
 
-article h2 {
+article h2{
     width:57%;
     margin: auto;
     text-align: left;
@@ -284,20 +273,20 @@ article h2 {
     font-size: 16pt;
 }
 
-article h3 {
+article h3{
     text-align: left;
     width:57%;
     margin: auto;
     margin-top:25px;
 }
 
-article p {
+article p{
     width:57%;
     margin: auto;
     text-align: left;
     font-size: 14pt;
 }
-article img {
+article img{
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -380,6 +369,7 @@ display: flex;
 .linjeet{
     margin-right: 25px;
 }
+
 .linjeto{
     margin-left: 25px;
 }
